@@ -21,7 +21,7 @@ public class MyStack<T> {
         }
         data[logLen++] = newElem;
     }
-
+//
     public T pop() {
         if(logLen == 0) {
             throw new IndexOutOfBoundsException("Stack Is Empty!");
